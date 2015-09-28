@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
     <title>alexlutz.io</title>
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -24,25 +25,37 @@
             <div class="inner">
             </div>
           </div>
-
           <div class="inner cover">
             <img src="me.jpeg" class="img-profile">
-            <h1 class="cover-heading">Alex Lutz</h1>
+            <h1>ALEX LUTZ</h1>
             <p class="lead">
-              Developer | <a href="http://atomicjolt.com">Atomic Jolt</a>
+              DEVELOPER &#160&#160&#160|  <a href="http://atomicjolt.com"><img id="atomic-logo" src="atomicjolt-logo-white.png"></a>
             </p>
             <p class="lead">
-              <a href="mailto:alexinslc@gmail.com" class="btn btn-lg btn-default">Hire Me</a>
+              <a id="gh-icon" href="http://github.com/alexinslc"><i class="fa fa-github-square fa-3x"></i></a>
+              <a id="ln-icon" href="http://linkedin.com/in/alexlutz"><i class="fa fa-linkedin-square fa-3x"></i></a>
+              <a id="fb-icon" href="http://facebook.com/alexinslc"><i class="fa fa-facebook-square fa-3x"></i></a>
+              <a id="tw-icon" href="http://twitter.com/alexinslc"><i class="fa fa-twitter-square fa-3x"></i></a>
+            </p>
+            <p class="lead">
+              <a href="mailto:alexinslc@gmail.com">HIRE ME</a>
             </p>
           </div>
-
           <div class="mastfoot">
             <div class="inner">
-              <p>  Alex Lutz | &#169 2015</p>
+              <p>  ALEX LUTZ | &#169 2015</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script>
+  $('#atomic-logo').mouseover(function() {
+    $(this).stop().fadeTo(500, 0.25);
+  });
+  $('#atomic-logo').mouseleave(function() {
+    $(this).stop().fadeTo(500, 1.0);
+  });
+  </script>
 </html>
